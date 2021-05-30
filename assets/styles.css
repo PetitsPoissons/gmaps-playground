@@ -1,0 +1,47 @@
+.page-header {
+  width: 1200px;
+  height: 64px;
+  margin: auto;
+  border: 1px solid #abb2b9;
+  border-radius: 32px;
+  background: linear-gradient(to top right, white, lightblue);
+  line-height: 64px;
+  font-size: 48px;
+  padding-left: 32px;
+  margin-top: 32px;
+}
+
+.page-body {
+  width: 800px;
+  min-height: 100px;
+  margin: auto;
+  border: 1px solid #abb2b9;
+  margin-top: 32px;
+  border-radius: 16px;
+}
+
+.page-body > div {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  border: inherit;
+  line-height: 40px;
+  font-size: 24px;
+  color: nevy;
+  margin-top: 8px;
+  border-radius: 8px;
+  text-indent: 12px;
+}
+.page-body > div:hover {
+  background-color: #b4d4f4;
+}
+.page-body > div:last-child {
+  margin-bottom: 8px;
+}
+
+.page-body > div > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}

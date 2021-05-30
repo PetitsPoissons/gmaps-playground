@@ -1,0 +1,16 @@
+/*
+	author: Owsiak, Erik
+	date: Wed Nov 16 22:01:41 2016
+   website: http://www.infomatrix.us/
+*/
+
+.cls-map-screen {width:640px;height:480px;margin:auto;border:2px solid #B0C4DE;border-radius:16px;margin-top:32px;
+   background-image:url(https://maps.googleapis.com/maps/api/staticmap?center=new+york+city&zoom=12&scale=1&size=640x480&key=AIzaSyApK9f1cwX-hBkIaft5H3o_E1iie6fC1ok);}
+.cls-map-input {width:640px;margin:auto;margin-top:16px;text-align:center;}
+.cls-map-input input[type=text] {width:500px;}
+.cls-map-input input[type=text]:first-child {margin-right:82px;margin-bottom:16px;}
+.cls-map-input input[type=text]:nth-child(3) {margin-right:82px;margin-bottom:16px;}
+.cls-map-input input[type=number] {width:500px;margin-right:82px;margin-bottom:16px;}
+
+.cls-misc {width:640px;margin:auto;margin-top:24px;margin-bottom:32px;}
+.cls-misc a {margin-left:32px;text-decoration:none;}

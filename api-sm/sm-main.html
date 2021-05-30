@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Maps API</title>
+    <link type="text/css" rel="stylesheet" href="sm-main.css" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="../assets/config.js"></script>
+    <script type="text/javascript" src="sm-main.js"></script>
+  </head>
+  <body>
+    <div class="page-box page-top">Google Static Maps API</div>
+    <div id="divPageMiddle" class="page-box page-middle"></div>
+    <div class="page-box page-bottom">
+      <input type="button" id="btnLoadEditor" value="Show URL Editor" />
+      <input type="button" id="btnLoadMap" value="Load Map" />
+    </div>
+    <script type="text/javascript">
+      smMain.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>static api</title>
+    <link type="text/css" rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.infomatrix.us/js/extends.js"></script>
+    <script type="text/javascript" src="index.js"></script> 
+</head>
+<body>
+    <div class="cls-map-screen"></div>
+    <div class="cls-map-input">
+        <input type="text" id="txtApiKey" placeholder="enter static api key"/>
+        <input type="number" id="numZoom" placeholder="enter zoom value: 1 - 20" min="1" max="20" value="10"/>
+        <input type="text" id="txtMapType" placeholder="enter map type: roadmap, satellite, terrain, hybrid"
+            pattern="^(roadmap|satellite|terrain|hybrid)$"/>
+        <input type="text" id="txtAddress" placeholder="enter address or atitude, longitude"/>
+        <input type="button" id="btnLoadMap" value="Load Map"/>
+    </div>
+    <div class="cls-misc">
+        <a href="https://developers.google.com/maps/documentation/static-maps/intro" target="_blank">
+            Google Static API
+        </a>
+    </div>
+    <script type="text/javascript">
+        App.Init();
+    </script>
+</body>
+</html>
